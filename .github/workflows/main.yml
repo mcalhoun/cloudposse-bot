@@ -37,7 +37,7 @@ jobs:
         run: yarn nx affected:lint
 
       - name: Build
-        run: yarn nx affected:test
+        run: yarn nx affected:build
 
       - name: Run tests
         run: yarn nx affected:test
